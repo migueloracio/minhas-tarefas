@@ -1,0 +1,171 @@
+/* Config Padrao */
+* {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("img/Interface=Mobile\,\ Theme=Dark\ mode.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+h1{
+    background: white;
+    color: #102f5e;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.582);
+    border: solid 0.1px;
+}
+/* Inicio adicionar tarefas */
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.582);
+    border: solid 0.1px;
+}
+.hide{
+    display: none;
+}
+button {
+    background-color: #eeeeee;
+    color: #102f5e;
+    border: 1px solid;
+    padding: .3rem .6rem;
+    border-radius: .50rem;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: .1rem .1rem;
+    align-items: center;
+    transition: 0.4s;
+    
+}
+button:hover{
+    background-color: #102f5e;
+}
+button:hover{
+    color: #ffffff;
+}
+
+input{
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 1px solid;
+    padding: .3rem .6rem;
+    border-radius: .50rem;
+    font-size: 1rem;
+    box-shadow: .1rem .1rem;
+}
+
+#todo-form, #edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+#todo-form p, #edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.form-control{
+    display: flex;
+}
+.form-control input{
+    margin-right: 0.3rem;
+}
+#cancel-edit-btn{
+    margin-top: 0.5rem;
+}
+/* Fim adicionar tarefas */
+
+/* Barra de pesquisa */
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+#toolbar h5 {
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+#search {
+border-right: 1px solid #ccc;
+padding-right: 1rem;
+display: flex;
+width: 65%;
+flex-direction: column;
+}
+#search form {
+    display: flex;
+}
+#search input{
+    width: 100%;
+    margin-right: 0.3rem;
+}
+
+#filter {
+    padding-left: 0.5rem;
+    flex-direction: column;
+    display: flex;
+    width: 35%;
+}
+#filter select{
+    flex: 1;
+}
+
+/* Inicio Tarefas adicionadas (todo) */
+.todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    transition: 0.3s;
+    border-radius: 2rem;
+}
+.todo h5{
+    flex: 1;
+    font-size: 0.9rem;
+}
+.todo button{
+    margin-left: 0.3rem;
+}
+
+.done {
+    background-color: #394a63;
+}
+.done h5{
+    color: #ccc;
+    text-decoration: line-through;
+    font-style: italic;
+    margin-left: 0.5rem;
+}
+/* Fim Tarefas adicionadas (todo) */
+
+footer {
+    background: white;
+    text-align: center;
+    font-style: italic;
+    color: #102f5e;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 7px 5px  rgba(0, 0, 0, 0.582);
+    border: solid 0.1px;
+}
